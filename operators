@@ -1,0 +1,79 @@
+# Assigning values to variables using assignment operators
+
+# Initializing variables
+a = 10
+b = 5
+
+# Using different assignment operators
+a += b  # Equivalent to: a = a + b
+print("After a += b, a =", a)
+
+a -= b  # Equivalent to: a = a - b
+print("After a -= b, a =", a)
+
+a *= b  # Equivalent to: a = a * b
+print("After a *= b, a =", a)
+
+a /= b  # Equivalent to: a = a / b
+print("After a /= b, a =", a)
+
+a //= b  # Equivalent to: a = a // b
+print("After a //= b, a =", a)
+
+a %= b  # Equivalent to: a = a % b
+print("After a %= b, a =", a)
+
+a **= b  # Equivalent to: a = a ** b
+print("After a **= b, a =", a)
+
+# Output:
+# After a += b, a = 15
+# After a -= b, a = 10
+# After a *= b, a = 50
+# After a /= b, a = 10.0
+# After a //= b, a = 2.0
+# After a %= b, a = 2.0
+# After a **= b, a = 32.0
+# Arithmetic operators
+a = 10
+b = 3
+print("Arithmetic operators:")
+print("a + b =", a + b)  # Addition
+print("a - b =", a - b)  # Subtraction
+print("a * b =", a * b)  # Multiplication
+print("a / b =", a / b)  # Division
+print("a % b =", a % b)  # Modulo (Remainder)
+print("a ** b =", a ** b)  # Exponentiation
+print()
+
+# Comparison operators
+x = 5
+y = 7
+print("Comparison operators:")
+print("x == y :", x == y)  # Equal to
+print("x != y :", x != y)  # Not equal to
+print("x < y  :", x < y)   # Less than
+print("x > y  :", x > y)   # Greater than
+print("x <= y :", x <= y)  # Less than or equal to
+print("x >= y :", x >= y)  # Greater than or equal to
+print()
+
+# Logical operators
+p = True
+q = False
+print("Logical operators:")
+print("p and q :", p and q)  # Logical AND
+print("p or q  :", p or q)   # Logical OR
+print("not p   :", not p)    # Logical NOT
+print()
+
+# Bitwise operators
+m = 5    # 0101 in binary
+n = 3    # 0011 in binary
+print("Bitwise operators:")
+print("m & n  :", m & n)    # Bitwise AND
+print("m | n  :", m | n)    # Bitwise OR
+print("m ^ n  :", m ^ n)    # Bitwise XOR
+print("~m     :", ~m)       # Bitwise NOT
+print("m << 2 :", m << 2)   # Bitwise left shift
+print("m >> 1 :", m >> 1)   # Bitwise right shift
